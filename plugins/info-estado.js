@@ -31,8 +31,8 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} KillzN
-  ${tradutor.texto1[2]} +56983073328
+  ${tradutor.texto1[1]} SANTX
+  ${tradutor.texto1[2]} +573132641948
   ${tradutor.texto1[3]} https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC
 
   ${tradutor.texto1[4]} ${rtime}
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://www.instagram.com/ineffable.mvrco/` },
+    document: { url: `https://www.instagram.com/08._santiago17/` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://www.instagram.com/ineffable.mvrco/",
+        mediaUrl: "https://www.instagram.com/08._santiago17/",
         mediaType: 2,
         previewType: "pdf",
-        title: "KillzN",
+        title: "SANTX",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://www.instagram.com/ineffable.mvrco/",
+        sourceUrl: "https://www.instagram.com/08._santiago17/",
       },
     },
     caption: info,
