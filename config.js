@@ -67,6 +67,8 @@ global.imagen7 = fs.readFileSync('./src/menu_pt.png');
 global.imagen8 = fs.readFileSync('./src/menu_fr.png')
 global.imagen9 = fs.readFileSync('./src/menu_en.png')
 global.imagen10 = fs.readFileSync('./src/menu_ru.png')
+global.imagen11 = fs.readFileSync('./Menu4.jpg');
+global.imagen12 = fs.readFileSync('./Menu5.jpg');
 
 global.mods = [];
 
