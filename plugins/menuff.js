@@ -32,223 +32,60 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┎━━━━━━━ ∙ʚ🤴🏻ɞ∙ ━━━━━━━┒
-┃⭐ Creador : SANTX
-┃📞 Wa.me/573132641948
-┃https://chat.whatsapp.com/L481VM9rJ2JJj5y3atndy8
-┃     𝗦𝗔𝗡𝗧𝗫 𝗕𝗢𝗧 🤍
-┖━━━━━━━ ∙ʚ⚜️ɞ∙ ━━━━━━━┚
+    const str = `╭━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╮
+                  𝕊𝔸ℕ𝕋𝕏 𝔹𝕆𝕋 🤖
+╰━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╯
 
+     ㅤ   ◥◣◆◢◤
+     ◢████████◣
+  ◢██████████◣
+ ◥███████████◤
+  ◥██████████◤
+     ◥████████◤
+   ㅤ    ◥████◤     
 
+╔══════════════════════╗
+║        🎮 𝕄𝔼ℕ𝕌 | 𝕍𝔼ℝ𝕊𝕌𝕊 🎮           ║
+╚══════════════════════╝
 
- ╭━〔 ⚙️ 𝐀𝐂𝐓𝐈𝐕𝐀𝐑 𝐎 𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑 ⚙️ 〕
- *┃➤ 🟢 ${usedPrefix}enable*
- *┃➤ 🔴 ${usedPrefix}disable*
-  ╰━━━━━━━━━━━━
+┏━━ 𝕄𝔸ℙ𝔸 𝔾ℝ𝔸ℕ𝔻𝔼 ━━━┓
+   ➤ .vs12   ➤ .cuadri       
+   ➤ .vs16   ➤ .hexa       
+   ➤ .trila 
+   ➤ .scrim       
+┗━━━━━━━━━━━━━━━━┛
 
- ╭━〔 ❄️ 𝐆𝐑𝐔𝐏𝐎𝐒 ❄️〕
- *┃➤  ${usedPrefix}kick*
- *┃➤  ${usedPrefix}grupo*
- *┃➤  ${usedPrefix}promote*
- *┃➤  ${usedPrefix}demote*
- *┃➤  ${usedPrefix}demote*
- *┃➤  ${usedPrefix}link*
- *┃➤  ${usedPrefix}invocar*
- *┃➤  ${usedPrefix}setwelcome*
- *┃➤  ${usedPrefix}setbye*
- *┃➤  ${usedPrefix}hidetag*
- *┃➤  ${usedPrefix}fantasmas*
- *┃➤  ${usedPrefix}kickfantasmas*
-  ╰━━━━━━━━━━━━
+     ☁ ℝ𝔼𝔾𝕀Óℕ 𝕊𝕌ℝ ☁
 
- *╔══ ≪ 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 𝗫 𝗙𝗜𝗟𝗧𝗥𝗢𝗦 ≫ ══╗*
- *║* 🎐 _${usedPrefix}sticker | s *imagen o video*_
- *║* 🎐 _${usedPrefix}sticker | s *url de tipo jpg*_
- *║* 🎐 _${usedPrefix}emojimix *😺+😆*_
- *║* 🎐 _${usedPrefix}qc*_
- *║* 🎐 _${usedPrefix}scircle | círculo *imagen*_
- *║* 🎐 _${usedPrefix}semoji | emoji *tipo emoji*_
- *║* 🎐 _${usedPrefix}attp *texto*_
- *║* 🎐 _${usedPrefix}attp2 *texto*_
- *║* 🎐 _${usedPrefix}ttp *texto*_
- *║* 🎐 _${usedPrefix}ttp2 *texto*_
- *║* 🎐 _${usedPrefix}ttp3 *texto*_
- *║* 🎐 _${usedPrefix}ttp4 *texto*_
- *║* 🎐 _${usedPrefix}ttp5 *texto*_
- *║* 🎐 _${usedPrefix}ttp6 *texto*_
- *║* 🎐 _${usedPrefix}dado_
- *║* 🎐 _${usedPrefix}stickermarker *efecto : responder a imagen*_
- *║* 🎐 _${usedPrefix}stickerfilter *efecto : responder a imagen*_
- *║* 🎐 _${usedPrefix}cs *:* cs2_
- *╚══ ≪ •❈• ≫ ══╝*
+┏━━━━━━ 𝕍Í𝕍𝕀𝔻𝕆 ━━━━━┓
+   ➤ .4vs4a1   ➤ .4vs4a4         
+   ➤ .4vs4a2   ➤ .4vs4a5         
+   ➤ .4vs4a3   ➤ .4vs4a6         
+┗━━━━━━━━━━━━━━━━━┛
 
- ╭━〔 🎮 𝐉𝐔𝐄𝐆𝐎𝐒 🎮 〕
-*┃➤ 🕹️ ${usedPrefix}mates*
-*┃➤ 🕹️ ${usedPrefix}ppt*
-*┃➤ 🕹️ ${usedPrefix}prostituto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}prostituta <@tag>*
-*┃➤ 🕹️ ${usedPrefix}gay2 <@tag>*
-*┃➤ 🕹️ ${usedPrefix}lesbiana <@tag>*
-*┃➤ 🕹️ ${usedPrefix}pajero <@tag>*
-*┃➤ 🕹️ ${usedPrefix}pajera <@tag>*
-*┃➤ 🕹️ ${usedPrefix}puto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}puta <@tag>*
-*┃➤ 🕹️ ${usedPrefix}manco <@tag>*
-*┃➤ 🕹️ ${usedPrefix}manca <@tag>*
-*┃➤ 🕹️ ${usedPrefix}rata <@tag>*
-*┃➤ 🕹️ ${usedPrefix}negro <@tag>*
-*┃➤ 🕹️ ${usedPrefix}negra <@tag>*
-*┃➤ 🕹️ ${usedPrefix}fea <@tag>*
-*┃➤ 🕹️ ${usedPrefix}feo <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sinpoto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sintetas <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sinpito <@tag>*
-*┃➤ 🕹️ ${usedPrefix}adoptada <@tag>*
-*┃➤ 🕹️ ${usedPrefix}adoptado <@tag>*
-*┃➤ 🕹️ ${usedPrefix}love*
-*┃➤ 🕹️ ${usedPrefix}los10*
-*┃➤ 🕹️ ${usedPrefix}suitpvp*
-*┃➤ 🕹️ ${usedPrefix}slot*
-*┃➤ 🕹️ ${usedPrefix}simisimi*
-*┃➤ 🕹️ ${usedPrefix}pregunta*
-*┃➤ 🕹️ ${usedPrefix}cuando*
-*┃➤ 🕹️ ${usedPrefix}ship5*
-*┃➤ 🕹️ ${usedPrefix}abrazo*
-*┃➤ 🕹️ ${usedPrefix}ship2*
-*┃➤ 🕹️ ${usedPrefix}formarpareja*
-*┃➤ 🕹️ ${usedPrefix}verdad*
-*┃➤ 🕹️ ${usedPrefix}reto*
-*┃➤ 🕹️ ${usedPrefix}cancion*
-*┃➤ 🕹️ ${usedPrefix}pista*
-*┃➤ 🕹️ ${usedPrefix}ruleta*
-*┃➤ 🕹️ ${usedPrefix}zodiac*
-*┃➤ 🕹️ ${usedPrefix}odio*
-*┃➤ 🕹️ ${usedPrefix}ship*
-*┃➤ 🕹️ ${usedPrefix}sorteo*
-*┃➤ 🕹️ ${usedPrefix}minovia*
-*┃➤ 🕹️ ${usedPrefix}minovio*
-*┃➤ 🕹️ ${usedPrefix}kchero*
-*┃➤ 🕹️ ${usedPrefix}kchero*
- ╰━━━━━━━━━━━━
+┏━━━━━ 𝕀ℕ𝔽𝕀ℕ𝕀𝕋𝕆 ━━━━━┓
+   ➤ .4vs4b1   ➤ .4vs4b4    
+   ➤ .4vs4b2  ➤ .4vs4b5    
+   ➤ .4vs4b3  ➤ .4vs4b5     
+┗━━━━━━━━━━━━━━━━━┛
 
- ╭━〔 🎭 𝗜𝗠𝗔𝗚𝗘𝗡𝗘𝗦 🎭 〕
-*┃➤ 🖍️ ${usedPrefix}goku*
-*┃➤ 🖍️ ${usedPrefix}vegeta*
-*┃➤ 🖍️ ${usedPrefix}lora*
-*┃➤ 🖍️ ${usedPrefix}cr7*
-*┃➤ 🖍️ ${usedPrefix}spiderman*
-*┃➤ 🖍️ ${usedPrefix}batman*
-*┃➤ 🖍️ ${usedPrefix}hellokitty*
-*┃➤ 🖍️ ${usedPrefix}charmander*
- ╰━━━━━━━━━━━━
+    ⭐ ℝ𝔼𝔾𝕀Óℕ ℕ𝕆ℝ𝕋𝔼 ⭐
 
- ╭━〔 🈴 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 🈴 〕
-*┃➤ 📥 ${usedPrefix}play*
-*┃➤ 📥 ${usedPrefix}play.1*
-*┃➤ 📥 ${usedPrefix}play2.2*
-*┃➤ 📥 ${usedPrefix}ytv.2*
-*┃➤ 📥 ${usedPrefix}yta.2*
-*┃➤ 📥 ${usedPrefix}playlist*
-*┃➤ 📥 ${usedPrefix}spotify*
-*┃➤ 📥 ${usedPrefix}spotifydl*
-*┃➤ 📥 ${usedPrefix}tiktok*
-*┃➤ 📥 ${usedPrefix}instagram*
-*┃➤ 📥 ${usedPrefix}mediafire*
-*┃➤ 📥 ${usedPrefix}gdrive*
-*┃➤ 📥 ${usedPrefix}twitter*
-*┃➤ 📥 ${usedPrefix}yta*
-*┃➤ 📥 ${usedPrefix}ytv*
-*┃➤ 📥 ${usedPrefix}imagen*
-*┃➤ 📥 ${usedPrefix}iaimagen*
-*┃➤ 📥 ${usedPrefix}pinteres*
-*┃➤ 📥 ${usedPrefix}igstory*
- ╰━━━━━━━━━━━━
+┏━━━━━━━ ℂ𝕃𝕂 ━━━━━━┓
+   ➤ .4vs4n1    ➤ .4vs4n4       
+   ➤ .4vs4n2   ➤ .4vs4n5       
+   ➤ .4vs4n3   ➤ .4vs4n6       
+┗━━━━━━━━━━━━━━━━┛
 
-*╭━〔 👀 𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒 👀 〕*
-*┃➤ 📍 ${usedPrefix}toimg*
-*┃➤ 📍 ${usedPrefix}tomp3*
-*┃➤ 📍 ${usedPrefix}toptt*
-*┃➤ 📍 ${usedPrefix}tovideo*
-*┃➤ 📍 ${usedPrefix}tts*
- ╰━━━━━━━━━━━━
+┏━━━━━ 𝕀ℕ𝔽𝕀ℕ𝕀𝕋𝕆 ━━━━━┓
+   ➤ .4vs4d1   ➤ .4vs4d4        
+   ➤ .4vs4d2   ➤ .4vs4d5       
+   ➤ .4vs4d3   ➤ .4vs4d6       
+┗━━━━━━━━━━━━━━━━━┛
 
-*╭━〔 ♓ 𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐘 𝐋𝐎𝐆𝐎𝐒 ♓ 〕*
-*┃➤ ❄️ ${usedPrefix}mensajefalso*
-*┃➤ ❄️ ${usedPrefix}logos*
-*┃➤ ❄️ ${usedPrefix}logocorazon*
-*┃➤ ❄️ ${usedPrefix}ytcomment*
-*┃➤ ❄️ ${usedPrefix}hornycard*
-*┃➤ ❄️ ${usedPrefix}itssostupid*
-*┃➤ ❄️ ${usedPrefix}pixelar*
- ╰━━━━━━━━━━━━
-
-*╭━〔 💌 𝐅𝐑𝐀𝐒𝐄𝐒 𝐘 𝐓𝐄𝐗𝐓𝐎𝐒 💌〕*
-*┃➤ 🥀 ${usedPrefix}piropo*
-*┃➤ 🥀 ${usedPrefix}consejo*
-*┃➤ 🥀 ${usedPrefix}fraseromantica*
- ╰━━━━━━━━━━━━
-
- ╭━〔 ✨ 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 ✨  〕*
-*┃➤ 🔍 ${usedPrefix}xnxxsearch*
-*┃➤ 🔍 ${usedPrefix}google*
-*┃➤ 🔍 ${usedPrefix}letra*
-*┃➤ 🔍 ${usedPrefix}wikipedia*
-*┃➤ 🔍 ${usedPrefix}ytsearch*
-*┃➤ 🔍 ${usedPrefix}playstore*
-*┃➤ 🔍 ${usedPrefix}mercadolibre*
-*┃➤ 🔍 ${usedPrefix}pornhubsearch*
- ╰━━━━━━━━━━━━
-
- ╭━〔 🌝 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🌝 〕
-*┃➤ 🍃 ${usedPrefix}clima*
-*┃➤ 🍃 ${usedPrefix}afk*
-*┃➤ 🍃 ${usedPrefix}ocr*
-*┃➤ 🍃 ${usedPrefix}calc*
-*┃➤ 🍃 ${usedPrefix}del*
-*┃➤ 🍃 ${usedPrefix}whatmusic*
-*┃➤ 🍃 ${usedPrefix}qrcode*
-*┃➤ 🍃 ${usedPrefix}traducir*
- ╰━━━━━━━━━━━━
-
-*╭━〔 💎 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒 💎 〕*
-*┃➤ 🍁 ${usedPrefix}verificar*
-*┃➤ 🍁 ${usedPrefix}unreg*
-*┃➤ 🍁 ${usedPrefix}minar*
-*┃➤ 🍁 ${usedPrefix}buy*
-*┃➤ 🍁 ${usedPrefix}work*
-*┃➤ 🍁 ${usedPrefix}mendigar*
-*┃➤ 🍁 ${usedPrefix}transfer*
- ╰━━━━━━━━━━━━
- *╔══ ≪ 𝗙𝗨𝗡𝗖𝗜𝗢𝗡𝗘𝗦 𝗢𝗪𝗡𝗘𝗥𝗦 ≫ ══╗*
-*║* 💎➺ _${usedPrefix}join *enlace*_
-*║* 💎➺ _${usedPrefix}unete *enlace*_
-*║* 💎➺ _${usedPrefix}dardiamantes *cantidad*_
-*║* 💎➺ _${usedPrefix}darxp *cantidad*_
-*║* 💎➺ _${usedPrefix}dargatacoins *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}idioma | language_
-*║* 💎➺ _${usedPrefix}cajafuerte_
-*║* 💎➺ _${usedPrefix}comunicar | broadcastall | bc *texto*_
-*║* 💎➺ _${usedPrefix}broadcastchats | bcc *texto*_
-*║* 💎➺ _${usedPrefix}comunicarpv *texto*_
-*║* 💎➺ _${usedPrefix}broadcastgc *texto*_
-*║* 💎➺ _${usedPrefix}comunicargrupos *texto*_
-*║* 💎➺ _${usedPrefix}borrartmp | cleartmp_
-*║* 💎➺ _${usedPrefix}delexp *@tag*_
-*║* 💎➺ _${usedPrefix}deloptimuscoins *@tag*_
-*║* 💎➺ _${usedPrefix}deldiamantes *@tag*_
-*║* 💎➺ _${usedPrefix}reiniciar | restart_
-*║* 💎➺ _${usedPrefix}Actualizar | update_
-*║* 💎➺ _${usedPrefix}addprem | +prem *@tag*_
-*║* 💎➺ _${usedPrefix}delprem | -prem *@tag*_
-*║* 💎➺ _${usedPrefix}listapremium | listprem_
-*║* 💎➺ _${usedPrefix}añadirdiamantes *@tag cantidad*_
-*║* 💎➺ _${usedPrefix}añadirxp *@tag cantidad*_
-*║* 💎➺ _${usedPrefix}añadircoins *@tag cantidad*_
-*╚══ ≪ •❈• ≫ ══╝*`
+╭━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╮
+   ¡𝔻𝕚𝕤𝕗𝕣𝕦𝕥𝕒 𝕦𝕤𝕒𝕟𝕕𝕠 𝕊𝔸ℕ𝕋𝕏 𝔹𝕆𝕋!
+╰━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╯`
 
     let pp
     // Nouvelles images de menu disponibles 
@@ -286,7 +123,7 @@ const fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@b
     conn.reply(m.chat, tradutor.texto1[29], m);
   }
 };
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.command = /^(menuff|menúff|MENUFF)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
