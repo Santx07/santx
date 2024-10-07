@@ -4,18 +4,20 @@ const handler = async (m, {conn}) => {
 handler.command = /^(scrim|SCRIM)$/i;
 export default handler;
 
-global.scrim = `🐉 LISTA SCRIM 🐉
+global.scrim = `🐉✨ 𝕃𝕀𝕊𝕋𝔸 𝕊ℂℝ𝕀𝕄 ✨🐉
 
-HORA: 🇨🇴 ¦ 🇲🇽
-CASILLA:
-CAÍDAS:
+⏰ HORA:  🇨🇴 Colombia ¦ 🇲🇽 México
+🏠 CASILLA: 
+ 🗺 MAPAS:
 
-ESCUADRA
-🥷
-🥷
-🥷
-🥷
+👥 𝔼𝕊ℂ𝕌𝔸𝔻ℝ𝔸 ℙℝ𝕀ℕℂ𝕀ℙ𝔸𝕃
+   🥷 
+   🥷 
+   🥷
+   🥷
 
-RESERVAS
-🥷
-🥷`;
+🔄 ℝ𝔼𝕊𝔼ℝ𝕍𝔸𝕊
+   🥷 
+   🥷 
+
+💪 ¡𝔸 𝕝𝕒 𝕧𝕚𝕔𝕥𝕠𝕣𝕚𝕒, 𝕖𝕢𝕦𝕚𝕡𝕠! 🏆`;
