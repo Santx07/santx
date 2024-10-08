@@ -45,11 +45,11 @@ Tipos de Bots:
 
 👑BOT PERSONALIZADO:  Este bot  tiene limite de grupos (3) Y SE puede personalizar a tu gustó (No se puede  la Venta)
 
-👑BOT PORPIO:  Este bot es personalizado 100%, con el número ig, imagen, lista etc...
+👑BOT PROPIO:  Este bot es personalizado 100%, con el número ig, imagen, lista etc...
 
 💵PRECIOS
 
-BOT MENSULA/SEMESTRAL 
+BOT MENSUAL/SEMESTRAL 
 
 MENSUAL: 4.000 pesos 🇨🇴 20 pesos🇲🇽 1 dolar🇺🇸
 
