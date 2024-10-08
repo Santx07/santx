@@ -12,10 +12,10 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const idioma = datas.db.data.users[m.sender].language
     const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
     const tradutor = _translate.plugins.menu_menu
-    // const pp = imagen11;
+    // const pp = imagen12;
 
     // let vn = './media/menu.mp3'
-    const img = './Menu4.jpg';
+    const img = './Menu5.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es-ES';
     const week = d.toLocaleDateString(locale, { weekday: 'long' });
@@ -37,32 +37,36 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
        𝕊𝔸ℕ𝕋𝕏 𝔹𝕆𝕋 🤖
 
  ➤ ${tradutor.texto1[1]} ${taguser}*
-  BIENBENIDO AL CATALOGO DE BOTS.
+  BIENBENIDO AL CATALOGO DE APK, SEGUIDORES, DIAMANTES ETC...
   SI TE LLEGA INTERESAR ALGO EN EL CATALOGO ESTÁ PARA CONTACTARTE CON EL VENDEDOR.
 ╰━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╯
 
-Tipos de Bots:
-👑BOT MENSUAL/SEMESTRAL/ ANUAL: Este bot, tiene limite de grupos (1).
+*APKS. 👑* 
 
-👑BOT PERMANENTE:  Este bot  tiene limite de grupos (3)
+☁| MAGIS TV 3 USD
+👑| SPOTIFY 3 USD
+☁| CANVA 3 USD
+👑| NETFLIX 4 USD
 
-👑BOT PERSONALIZADO:  Este bot  tiene limite de grupos (3) Y SE puede personalizar a tu gustó (No se puede  la Venta)
+*DIAMANTES X ID 💎🤍*
+100 +10💎 $19 MXN
+310 +31💎 $60 MXN
+520 +52💎 $95 MXN
+1,060 +106💎 $190 MXN
+2,180 +218💎 $345 MXN
+5,600 +560💎 $895 MXN
 
-👑BOT PROPIO:  Este bot es personalizado 100%, con el número ig, imagen, lista etc...
+*PASES BOOYAH $50*
 
-💵PRECIOS
+*SEGUIDORES, VISTAS, LIKES, VISTAS EN LIVE ETC... PARA CUALQUIER PLATAFORMA*
 
-BOT MENSUAL/SEMESTRAL 
-
-MENSUAL: 4.000 pesos 🇨🇴 20 pesos🇲🇽 1 dolar🇺🇸
-
-SEMESTRAL: 16.000 pesos🇨🇴 77 pesos 🇲🇽 4 dolares🇺🇸 
-
-BOT PERMANENTE 26.000 pesos 🇨🇴 125 pesos🇲🇽 6 dolar🇺🇸 + comisión 
-
-BOT PERSONALIZADOS 42.000 pesos 🇨🇴 200 pesos🇲🇽 10 dolar🇺🇸 + comisión  
-
-BOT PROPIO 58.000 pesos 🇨🇴 280 pesos🇲🇽 14 dolar🇺🇸 + comisión 
+👑 Facebook 
+🤍 Instagram 
+👑 Tik Tok
+🤍 Kick
+👑 YouTube 
+🤍 Twitter 
+👑 Twitch
 
 VENDEDOR
 
@@ -72,7 +76,7 @@ VENDEDOR
 🇨🇴🇲🇽🇺🇸🇭🇳💎
 
 ㅤㅤ 𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒
-https://chat.whatsapp.com/L481VM9rJ2JJj5y3atndy8`
+https://chat.whatsapp.com/EZEO4N1pVee4J7m9gTp7K8`
 
     let pp
     // Nouvelles images de menu disponibles 
@@ -110,7 +114,7 @@ const fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@b
     conn.reply(m.chat, tradutor.texto1[29], m);
   }
 };
-handler.command = /^(catalogobot|CATALOGOBOT)$/i;
+handler.command = /^(catalogoproductos|CATALOGOPRODUCTOS)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;

@@ -56,60 +56,138 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
 ╠ .enable 🟢 | .disable 🔴
 
 👥 𝙂𝙍𝙐𝙋𝙊𝙎
-╠ .kick  .grupo  .promote
-╠ .demote .link  .invocar
-╠ .setwelcome .setbye .hidetag
-╠ .fantasmas .kickfantasmas .menuff
+
+╠ .kick
+╠ .grupo
+╠ .promote
+╠ .demote
+╠ .link
+╠ .invocar
+╠ .setwelcome
+╠ .setbye
+╠ .hidetag
+╠ .fantasmas
+╠ .kickfantasmas
+╠ .menuff
+╠ .catalogobot
+╠ .catalogoproductos
 
 🎭 𝙎𝙏𝙄𝘾𝙆𝙀𝙍𝙎 & 𝙁𝙄𝙇𝙏𝙍𝙊𝙎
-╠ .sticker | s  .emojimix  .qc
-╠ .scircle  .semoji  .attp
-╠ .ttp (1-6)  .dado  .stickermarker
-╠ .stickerfilter  .cs | cs2
+
+╠ .sticker | s
+╠ .qc
+╠ .scircle
+╠ .semoji
+╠ .attp
+╠ .ttp (1-6)
+╠ .dado
+╠ .stickermarker
+╠ .stickerfilter
+╠ .cs | cs2
 
 🎮 𝙅𝙐𝙀𝙂𝙊𝙎
-╠ .mates  .ppt  .love  .slot
-╠ .simisimi  .pregunta  .cuando
-╠ .ship5  .abrazo  .verdad  .reto
-╠ .ruleta  .zodiac  .sorteo  .kchero
+
+╠ .mates
+╠ .ppt
+╠ .love
+╠ .slot
+╠ .simisimi
+╠ .pregunta
+╠ .cuando
+╠ .ship5
+╠ .abrazo
+╠ .verdad
+╠ .reto
+╠ .ruleta
+╠ .zodiac
+╠ .sorteo
+╠ .kchero
 
 📥 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙎
-╠ .play  .playlist  .spotify
-╠ .tiktok  .instagram  .mediafire
-╠ .gdrive  .twitter  .ytv
-╠ .imagen  .pinteres  .igstory
+
+╠ .play
+╠ .playlist
+╠ .spotify
+╠ .tiktok
+╠ .instagram
+╠ .mediafire
+╠ .gdrive
+╠ .twitter
+╠ .ytv
+╠ .imagen
+╠ .pinteres
+╠ .igstory
 
 🔄 𝘾𝙊𝙉𝙑𝙀𝙍𝙏𝙄𝘿𝙊𝙍𝙀𝙎
-╠ .toimg  .tomp3  .toptt  .tovideo  .tts
+
+╠ .toimg
+╠ .tomp3
+╠ .toptt
+╠ .tovideo
+╠ .tts
 
 ✨ 𝙀𝙁𝙀𝘾𝙏𝙊𝙎 & 𝙇𝙊𝙂𝙊𝙎
-╠ .logos  .logocorazon
-╠ .ytcomment  .hornycard  .itssostupid
+
+╠ .logos
+╠ .logocorazon
+╠ .ytcomment
+╠ .hornycard
+╠ .itssostupid
 ╠ .pixelar
 
 💌 𝙁𝙍𝘼𝙎𝙀𝙎 & 𝙏𝙀𝙓𝙏𝙊𝙎
-╠ .piropo  .consejo  .fraseromantica
+
+╠ .piropo
+╠ .consejo
+╠ .fraseromantica
 
 🔍 𝘽𝙐𝙎𝘾𝘼𝘿𝙊𝙍𝙀𝙎
-╠ .google  .letra  .wikipedia
-╠ .ytsearch  .playstore  .mercadolibre
+
+╠ .google
+╠ .letra
+╠ .wikipedia
+╠ .ytsearch
+╠ .playstore
+╠ .mercadolibre
 
 🛠 𝙃𝙀𝙍𝙍𝘼𝙈𝙄𝙀𝙉𝙏𝘼𝙎
-╠ .clima  .afk  .ocr  .calc
-╠ .del  .qrcode  .traducir
+
+╠ .clima
+╠ .afk
+╠ .ocr
+╠ .calc
+╠ .del
+╠ .qrcode
+╠ .traducir
 
 💰 𝙀𝘾𝙊𝙉𝙊𝙈Í𝘼
-╠ .verificar  .unreg  .minar  .buy
-╠ .work  .mendigar  .transfer
+
+╠ .verificar
+╠ .unreg
+╠ .minar
+╠ .buy
+╠ .work
+╠ .mendigar
+╠ .transfer
 
 ┏━━━━━━━━━━━━━━━━━━━━┓
 ┃        𝙁𝙐𝙉𝘾𝙄𝙊𝙉𝙀𝙎 𝙊𝙒𝙉𝙀𝙍         ┃
 ┗━━━━━━━━━━━━━━━━━━━━┛
-╠ .join  .unete  .dardiamantes
-╠ .darxp  .dargatacoins  .addprem
-╠ .idioma  .cajafuerte  .comunicar
-╠ .borrartmp  .delexp  .reiniciar
-╠ .actualizar  .listapremium
+
+╠ .join
+╠ .unete
+╠ .dardiamantes
+╠ .darxp
+╠ .dargatacoins
+╠ .addprem
+╠ .idioma
+╠ .cajafuerte
+╠ .comunicar
+╠ .borrartmp
+╠ .delexp
+╠ .reiniciar
+╠ .actualizar
+╠ .listapremium
 
 ╭━━━━━━━━ ⋆⋅☆⋅⋆ ━━━━━━━━╮
    ¡𝔻𝕚𝕤𝕗𝕣𝕦𝕥𝕒 𝕦𝕤𝕒𝕟𝕕𝕠 𝕊𝔸ℕ𝕋𝕏 𝔹𝕆𝕋!
