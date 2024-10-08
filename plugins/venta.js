@@ -15,7 +15,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     // const pp = imagen12;
 
     // let vn = './media/menu.mp3'
-    const img = './Menu5.jpg';
+    const img = './ventas.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es-ES';
     const week = d.toLocaleDateString(locale, { weekday: 'long' });
